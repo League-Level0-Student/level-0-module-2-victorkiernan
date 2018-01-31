@@ -6,11 +6,21 @@ import javax.swing.JOptionPane;
 
 public class Lotterynumbers {
 public static void main(String[] args) {
-Random rand = new Random();
-for (int i = 0; i < 8; i++) {
+	
+	Random rand = new Random();
+	String message= "";
+	for (int i = 0; i < 5; i++) {
 
-	 rand.nextInt(60);
+	int number= rand.nextInt(60) +1;
+
+
+message +=" ";
+message += number;
+
+
 }
-JOptionPane.showMessageDialog(null, );
+JOptionPane.showMessageDialog(null, "Here are the numbers: "+ message); 
+
+
 }
 }
