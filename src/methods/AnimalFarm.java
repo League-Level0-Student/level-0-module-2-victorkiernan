@@ -32,11 +32,11 @@ public class AnimalFarm {
 			playNoise(llamaFile);
 		}
 		else if (choice.equalsIgnoreCase("cat")) {
-			for (int i = 0; i < 1000000; i++) {
+			
 			playNoise(meowFile);
 		}
 			}
-	}
+	
 	/* 2. Make it so that the user can keep entering new animals. */
 
 	void playMoo() {
